@@ -1,0 +1,1048 @@
+# depslib dependency file v1.0
+1300886372 source:/home/venus/C/DNSFilter/packet/libipq.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+	<sys/time.h>
+	<sys/types.h>
+	"libipq.h"
+
+1300415072 /home/venus/C/DNSFilter/packet/libipq.h
+	<stdio.h>
+	<errno.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/uio.h>
+	<asm/types.h>
+	<linux/netlink.h>
+	<linux/netfilter_ipv4/ip_queue.h>
+
+1302960429 source:/home/venus/C/DNSFilter/main.c
+	<stdio.h>
+	<stdlib.h>
+	<signal.h>
+	<pthread.h>
+	"packet/libipq.h"
+	"packet/packet_filter.h"
+	"domainsearch/dbDomain.h"
+	"domainsearch/domainUpdate.h"
+	"ipsearch/dbIP.h"
+	"ipsearch/ipUpdate.h"
+
+1302960711 /home/venus/C/DNSFilter/packet/packet_filter.h
+	<sys/types.h>
+	<netinet/ip.h>
+	<netinet/udp.h>
+	<net/ethernet.h>
+	<stdio.h>
+	"queueip.h"
+
+1302960702 source:/home/venus/C/DNSFilter/packet/packet_filter.c
+	<string.h>
+	<stdlib.h>
+	<time.h>
+	"packet_filter.h"
+	<netinet/ip.h>
+	<netinet/udp.h>
+	"queueip.h"
+	"../domainsearch/dbDomain.h"
+	"../ipsearch/dbIP.h"
+	"../domainsearch/dbUtility.h"
+
+1301917300 source:/home/venus/C/DNSFilter/domainsearch/dbDomain.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<errno.h>
+	<pthread.h>
+	<unistd.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<sys/mman.h>
+	<time.h>
+	"dbDomain.h"
+
+1294722892 /home/venus/C/DNSFilter/domainsearch/dbDomain.h
+	<sys/types.h>
+	"dbUtility.h"
+
+1302957592 /home/venus/C/DNSFilter/domainsearch/dbUtility.h
+
+1301896792 source:/home/venus/C/DNSFilter/domainsearch/domainUpdate.c
+	<sys/types.h>
+	<sys/stat.h>
+	<sys/ipc.h>
+	<sys/shm.h>
+	<sys/sem.h>
+	<time.h>
+	<sys/time.h>
+	<stdio.h>
+	<string.h>
+	<pthread.h>
+	<errno.h>
+	"domainUpdate.h"
+	"dbDomain.h"
+
+1294722990 /home/venus/C/DNSFilter/domainsearch/domainUpdate.h
+	<pthread.h>
+	"dbUtility.h"
+
+1300168538 source:/home/venus/C/DNSFilter/ipsearch/dbIP.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<sys/mman.h>
+	<arpa/inet.h>
+	"dbIP.h"
+
+1293098064 /home/venus/C/DNSFilter/ipsearch/dbIP.h
+	"dbUtility.h"
+
+1302957594 /home/venus/C/DNSFilter/ipsearch/dbUtility.h
+
+1301889160 source:/home/venus/C/DNSFilter/ipsearch/ipUpdate.c
+	<sys/types.h>
+	<sys/stat.h>
+	<sys/ipc.h>
+	<sys/shm.h>
+	<sys/sem.h>
+	<time.h>
+	<sys/time.h>
+	<stdio.h>
+	<string.h>
+	<pthread.h>
+	<errno.h>
+	<signal.h>
+	"ipUpdate.h"
+	"dbIP.h"
+
+1299721958 /home/venus/C/DNSFilter/ipsearch/ipUpdate.h
+	<pthread.h>
+	"dbUtility.h"
+
+1302960804 /home/venus/C/DNSFilter/packet/queueip.h
+	<stdio.h>
+	<errno.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/uio.h>
+	<asm/types.h>
+	<linux/netlink.h>
+	<linux/netfilter_ipv4/ip_queue.h>
+
+1312282088 source:/home/venus/桌面/DNS中间机/DNSFilter/domainsearch/dbDomain.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<errno.h>
+	<pthread.h>
+	<unistd.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<sys/mman.h>
+	<time.h>
+	"dbDomain.h"
+
+1294722892 /home/venus/桌面/DNS中间机/DNSFilter/domainsearch/dbDomain.h
+	<sys/types.h>
+	"dbUtility.h"
+
+1302957592 /home/venus/桌面/DNS中间机/DNSFilter/domainsearch/dbUtility.h
+
+1301896792 source:/home/venus/桌面/DNS中间机/DNSFilter/domainsearch/domainUpdate.c
+	<sys/types.h>
+	<sys/stat.h>
+	<sys/ipc.h>
+	<sys/shm.h>
+	<sys/sem.h>
+	<time.h>
+	<sys/time.h>
+	<stdio.h>
+	<string.h>
+	<pthread.h>
+	<errno.h>
+	"domainUpdate.h"
+	"dbDomain.h"
+
+1294722990 /home/venus/桌面/DNS中间机/DNSFilter/domainsearch/domainUpdate.h
+	<pthread.h>
+	"dbUtility.h"
+
+1300168538 source:/home/venus/桌面/DNS中间机/DNSFilter/ipsearch/dbIP.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<sys/mman.h>
+	<arpa/inet.h>
+	"dbIP.h"
+
+1293098064 /home/venus/桌面/DNS中间机/DNSFilter/ipsearch/dbIP.h
+	"dbUtility.h"
+
+1302957594 /home/venus/桌面/DNS中间机/DNSFilter/ipsearch/dbUtility.h
+
+1301889160 source:/home/venus/桌面/DNS中间机/DNSFilter/ipsearch/ipUpdate.c
+	<sys/types.h>
+	<sys/stat.h>
+	<sys/ipc.h>
+	<sys/shm.h>
+	<sys/sem.h>
+	<time.h>
+	<sys/time.h>
+	<stdio.h>
+	<string.h>
+	<pthread.h>
+	<errno.h>
+	<signal.h>
+	"ipUpdate.h"
+	"dbIP.h"
+
+1299721958 /home/venus/桌面/DNS中间机/DNSFilter/ipsearch/ipUpdate.h
+	<pthread.h>
+	"dbUtility.h"
+
+1305803747 source:/home/venus/桌面/DNS中间机/DNSFilter/main.c
+	<stdio.h>
+	<stdlib.h>
+	<signal.h>
+	<pthread.h>
+	"packet/queueip.h"
+	"packet/packet_filter.h"
+	"domainsearch/dbDomain.h"
+	"domainsearch/domainUpdate.h"
+	"ipsearch/dbIP.h"
+	"ipsearch/ipUpdate.h"
+
+1302960804 /home/venus/桌面/DNS中间机/DNSFilter/packet/queueip.h
+	<stdio.h>
+	<errno.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/uio.h>
+	<asm/types.h>
+	<linux/netlink.h>
+	<linux/netfilter_ipv4/ip_queue.h>
+
+1305803792 /home/venus/桌面/DNS中间机/DNSFilter/packet/packet_filter.h
+	<sys/types.h>
+	<netinet/ip.h>
+	<netinet/udp.h>
+	<net/ethernet.h>
+	<stdio.h>
+	"queueip.h"
+
+1312371095 source:/home/venus/桌面/DNS中间机/DNSFilter/packet/packet_filter.c
+	<string.h>
+	<stdlib.h>
+	<time.h>
+	<sys/time.h>
+	"packet_filter.h"
+	<netinet/ip.h>
+	<netinet/udp.h>
+	"queueip.h"
+	"../domainsearch/dbDomain.h"
+	"../ipsearch/dbIP.h"
+	"../domainsearch/dbUtility.h"
+
+1302960789 source:/home/venus/桌面/DNS中间机/DNSFilter/packet/queueip.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+	<sys/time.h>
+	<sys/types.h>
+	"queueip.h"
+
+1312282088 source:/home/venus/桌面/DNS中间件/DNSFilter (复件)/domainsearch/dbDomain.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<errno.h>
+	<pthread.h>
+	<unistd.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<sys/mman.h>
+	<time.h>
+	"dbDomain.h"
+
+1294722892 /home/venus/桌面/DNS中间件/DNSFilter (复件)/domainsearch/dbDomain.h
+	<sys/types.h>
+	"dbUtility.h"
+
+1302957592 /home/venus/桌面/DNS中间件/DNSFilter (复件)/domainsearch/dbUtility.h
+
+1301896792 source:/home/venus/桌面/DNS中间件/DNSFilter (复件)/domainsearch/domainUpdate.c
+	<sys/types.h>
+	<sys/stat.h>
+	<sys/ipc.h>
+	<sys/shm.h>
+	<sys/sem.h>
+	<time.h>
+	<sys/time.h>
+	<stdio.h>
+	<string.h>
+	<pthread.h>
+	<errno.h>
+	"domainUpdate.h"
+	"dbDomain.h"
+
+1294722990 /home/venus/桌面/DNS中间件/DNSFilter (复件)/domainsearch/domainUpdate.h
+	<pthread.h>
+	"dbUtility.h"
+
+1300168538 source:/home/venus/桌面/DNS中间件/DNSFilter (复件)/ipsearch/dbIP.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<sys/mman.h>
+	<arpa/inet.h>
+	"dbIP.h"
+
+1293098064 /home/venus/桌面/DNS中间件/DNSFilter (复件)/ipsearch/dbIP.h
+	"dbUtility.h"
+
+1302957594 /home/venus/桌面/DNS中间件/DNSFilter (复件)/ipsearch/dbUtility.h
+
+1301889160 source:/home/venus/桌面/DNS中间件/DNSFilter (复件)/ipsearch/ipUpdate.c
+	<sys/types.h>
+	<sys/stat.h>
+	<sys/ipc.h>
+	<sys/shm.h>
+	<sys/sem.h>
+	<time.h>
+	<sys/time.h>
+	<stdio.h>
+	<string.h>
+	<pthread.h>
+	<errno.h>
+	<signal.h>
+	"ipUpdate.h"
+	"dbIP.h"
+
+1299721958 /home/venus/桌面/DNS中间件/DNSFilter (复件)/ipsearch/ipUpdate.h
+	<pthread.h>
+	"dbUtility.h"
+
+1314603517 source:/home/venus/桌面/DNS中间件/DNSFilter (复件)/main.c
+	<stdio.h>
+	<stdlib.h>
+	<signal.h>
+	<pthread.h>
+	"packet/queueip.h"
+	"packet/packet_filter.h"
+	"domainsearch/dbDomain.h"
+	"domainsearch/domainUpdate.h"
+	"ipsearch/dbIP.h"
+	"ipsearch/ipUpdate.h"
+
+1302960804 /home/venus/桌面/DNS中间件/DNSFilter (复件)/packet/queueip.h
+	<stdio.h>
+	<errno.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/uio.h>
+	<asm/types.h>
+	<linux/netlink.h>
+	<linux/netfilter_ipv4/ip_queue.h>
+
+1305803792 /home/venus/桌面/DNS中间件/DNSFilter (复件)/packet/packet_filter.h
+	<sys/types.h>
+	<netinet/ip.h>
+	<netinet/udp.h>
+	<net/ethernet.h>
+	<stdio.h>
+	"queueip.h"
+
+1312514519 source:/home/venus/桌面/DNS中间件/DNSFilter (复件)/packet/packet_filter.c
+	<string.h>
+	<stdlib.h>
+	<time.h>
+	<sys/time.h>
+	"packet_filter.h"
+	<netinet/ip.h>
+	<netinet/udp.h>
+	"queueip.h"
+	"../domainsearch/dbDomain.h"
+	"../ipsearch/dbIP.h"
+	"../domainsearch/dbUtility.h"
+
+1302960789 source:/home/venus/桌面/DNS中间件/DNSFilter (复件)/packet/queueip.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+	<sys/time.h>
+	<sys/types.h>
+	"queueip.h"
+
+1312282088 source:/root/Desktop/DNSFilter (复件)/domainsearch/dbDomain.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<errno.h>
+	<pthread.h>
+	<unistd.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<sys/mman.h>
+	<time.h>
+	"dbDomain.h"
+
+1294722892 /root/Desktop/DNSFilter (复件)/domainsearch/dbDomain.h
+	<sys/types.h>
+	"dbUtility.h"
+
+1302957592 /root/Desktop/DNSFilter (复件)/domainsearch/dbUtility.h
+
+1301896792 source:/root/Desktop/DNSFilter (复件)/domainsearch/domainUpdate.c
+	<sys/types.h>
+	<sys/stat.h>
+	<sys/ipc.h>
+	<sys/shm.h>
+	<sys/sem.h>
+	<time.h>
+	<sys/time.h>
+	<stdio.h>
+	<string.h>
+	<pthread.h>
+	<errno.h>
+	"domainUpdate.h"
+	"dbDomain.h"
+
+1294722990 /root/Desktop/DNSFilter (复件)/domainsearch/domainUpdate.h
+	<pthread.h>
+	"dbUtility.h"
+
+1300168538 source:/root/Desktop/DNSFilter (复件)/ipsearch/dbIP.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<sys/mman.h>
+	<arpa/inet.h>
+	"dbIP.h"
+
+1293098064 /root/Desktop/DNSFilter (复件)/ipsearch/dbIP.h
+	"dbUtility.h"
+
+1314662628 /root/Desktop/DNSFilter (复件)/ipsearch/dbUtility.h
+
+1301889160 source:/root/Desktop/DNSFilter (复件)/ipsearch/ipUpdate.c
+	<sys/types.h>
+	<sys/stat.h>
+	<sys/ipc.h>
+	<sys/shm.h>
+	<sys/sem.h>
+	<time.h>
+	<sys/time.h>
+	<stdio.h>
+	<string.h>
+	<pthread.h>
+	<errno.h>
+	<signal.h>
+	"ipUpdate.h"
+	"dbIP.h"
+
+1299721958 /root/Desktop/DNSFilter (复件)/ipsearch/ipUpdate.h
+	<pthread.h>
+	"dbUtility.h"
+
+1314622697 source:/root/Desktop/DNSFilter (复件)/main.c
+	<stdio.h>
+	<stdlib.h>
+	<signal.h>
+	<pthread.h>
+	"packet/queueip.h"
+	"packet/packet_filter.h"
+	"domainsearch/dbDomain.h"
+	"domainsearch/domainUpdate.h"
+	"ipsearch/dbIP.h"
+	"ipsearch/ipUpdate.h"
+
+1302960804 /root/Desktop/DNSFilter (复件)/packet/queueip.h
+	<stdio.h>
+	<errno.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/uio.h>
+	<asm/types.h>
+	<linux/netlink.h>
+	<linux/netfilter_ipv4/ip_queue.h>
+
+1314621372 /root/Desktop/DNSFilter (复件)/packet/packet_filter.h
+	<sys/types.h>
+	<netinet/ip.h>
+	<netinet/udp.h>
+	<net/ethernet.h>
+	<stdio.h>
+	"queueip.h"
+
+1302960788 source:/root/Desktop/DNSFilter (复件)/packet/queueip.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+	<sys/time.h>
+	<sys/types.h>
+	"queueip.h"
+
+1314623103 source:/root/Desktop/DNSFilter (复件)/packet/packet_filter.c
+	<string.h>
+	<stdlib.h>
+	<time.h>
+	<sys/time.h>
+	"packet_filter.h"
+	<netinet/ip.h>
+	<netinet/udp.h>
+	"queueip.h"
+	"../domainsearch/dbDomain.h"
+	"../ipsearch/dbIP.h"
+	"../domainsearch/dbUtility.h"
+
+1312282088 source:/media/B8DA-78AF/DNSFilter (复件)/domainsearch/dbDomain.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<errno.h>
+	<pthread.h>
+	<unistd.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<sys/mman.h>
+	<time.h>
+	"dbDomain.h"
+
+1294722892 /media/B8DA-78AF/DNSFilter (复件)/domainsearch/dbDomain.h
+	<sys/types.h>
+	"dbUtility.h"
+
+1302957592 /media/B8DA-78AF/DNSFilter (复件)/domainsearch/dbUtility.h
+
+1301896792 source:/media/B8DA-78AF/DNSFilter (复件)/domainsearch/domainUpdate.c
+	<sys/types.h>
+	<sys/stat.h>
+	<sys/ipc.h>
+	<sys/shm.h>
+	<sys/sem.h>
+	<time.h>
+	<sys/time.h>
+	<stdio.h>
+	<string.h>
+	<pthread.h>
+	<errno.h>
+	"domainUpdate.h"
+	"dbDomain.h"
+
+1294722990 /media/B8DA-78AF/DNSFilter (复件)/domainsearch/domainUpdate.h
+	<pthread.h>
+	"dbUtility.h"
+
+1300168538 source:/media/B8DA-78AF/DNSFilter (复件)/ipsearch/dbIP.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<sys/mman.h>
+	<arpa/inet.h>
+	"dbIP.h"
+
+1293098064 /media/B8DA-78AF/DNSFilter (复件)/ipsearch/dbIP.h
+	"dbUtility.h"
+
+1314662628 /media/B8DA-78AF/DNSFilter (复件)/ipsearch/dbUtility.h
+
+1301889160 source:/media/B8DA-78AF/DNSFilter (复件)/ipsearch/ipUpdate.c
+	<sys/types.h>
+	<sys/stat.h>
+	<sys/ipc.h>
+	<sys/shm.h>
+	<sys/sem.h>
+	<time.h>
+	<sys/time.h>
+	<stdio.h>
+	<string.h>
+	<pthread.h>
+	<errno.h>
+	<signal.h>
+	"ipUpdate.h"
+	"dbIP.h"
+
+1299721958 /media/B8DA-78AF/DNSFilter (复件)/ipsearch/ipUpdate.h
+	<pthread.h>
+	"dbUtility.h"
+
+1302960788 source:/media/B8DA-78AF/DNSFilter (复件)/packet/queueip.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+	<sys/time.h>
+	<sys/types.h>
+	"queueip.h"
+
+1302960804 /media/B8DA-78AF/DNSFilter (复件)/packet/queueip.h
+	<stdio.h>
+	<errno.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/uio.h>
+	<asm/types.h>
+	<linux/netlink.h>
+	<linux/netfilter_ipv4/ip_queue.h>
+
+1318814206 source:/media/B8DA-78AF/DNSFilter (复件)/main.c
+	<stdio.h>
+	<stdlib.h>
+	<signal.h>
+	<pthread.h>
+	"packet/queueip.h"
+	"packet/packet_filter.h"
+	"domainsearch/dbDomain.h"
+	"domainsearch/domainUpdate.h"
+	"ipsearch/dbIP.h"
+	"ipsearch/ipUpdate.h"
+
+1314621372 /media/B8DA-78AF/DNSFilter (复件)/packet/packet_filter.h
+	<sys/types.h>
+	<netinet/ip.h>
+	<netinet/udp.h>
+	<net/ethernet.h>
+	<stdio.h>
+	"queueip.h"
+
+1318813969 source:/media/B8DA-78AF/DNSFilter (复件)/packet/packet_filter.c
+	<string.h>
+	<stdlib.h>
+	<time.h>
+	<sys/time.h>
+	"packet_filter.h"
+	<netinet/ip.h>
+	<netinet/udp.h>
+	"queueip.h"
+	"../domainsearch/dbDomain.h"
+	"../ipsearch/dbIP.h"
+	"../domainsearch/dbUtility.h"
+
+1312282088 source:/media/B8DA-78AF/DNSFilter/domainsearch/dbDomain.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<errno.h>
+	<pthread.h>
+	<unistd.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<sys/mman.h>
+	<time.h>
+	"dbDomain.h"
+
+1294722892 /media/B8DA-78AF/DNSFilter/domainsearch/dbDomain.h
+	<sys/types.h>
+	"dbUtility.h"
+
+1302957592 /media/B8DA-78AF/DNSFilter/domainsearch/dbUtility.h
+
+1301896792 source:/media/B8DA-78AF/DNSFilter/domainsearch/domainUpdate.c
+	<sys/types.h>
+	<sys/stat.h>
+	<sys/ipc.h>
+	<sys/shm.h>
+	<sys/sem.h>
+	<time.h>
+	<sys/time.h>
+	<stdio.h>
+	<string.h>
+	<pthread.h>
+	<errno.h>
+	"domainUpdate.h"
+	"dbDomain.h"
+
+1294722990 /media/B8DA-78AF/DNSFilter/domainsearch/domainUpdate.h
+	<pthread.h>
+	"dbUtility.h"
+
+1300168538 source:/media/B8DA-78AF/DNSFilter/ipsearch/dbIP.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<sys/mman.h>
+	<arpa/inet.h>
+	"dbIP.h"
+
+1293098064 /media/B8DA-78AF/DNSFilter/ipsearch/dbIP.h
+	"dbUtility.h"
+
+1314662628 /media/B8DA-78AF/DNSFilter/ipsearch/dbUtility.h
+
+1301889160 source:/media/B8DA-78AF/DNSFilter/ipsearch/ipUpdate.c
+	<sys/types.h>
+	<sys/stat.h>
+	<sys/ipc.h>
+	<sys/shm.h>
+	<sys/sem.h>
+	<time.h>
+	<sys/time.h>
+	<stdio.h>
+	<string.h>
+	<pthread.h>
+	<errno.h>
+	<signal.h>
+	"ipUpdate.h"
+	"dbIP.h"
+
+1299721958 /media/B8DA-78AF/DNSFilter/ipsearch/ipUpdate.h
+	<pthread.h>
+	"dbUtility.h"
+
+1318819798 source:/media/B8DA-78AF/DNSFilter/main.c
+	<stdio.h>
+	<stdlib.h>
+	<signal.h>
+	<pthread.h>
+	"packet/queueip.h"
+	"packet/packet_filter.h"
+	"domainsearch/dbDomain.h"
+	"domainsearch/domainUpdate.h"
+	"ipsearch/dbIP.h"
+	"ipsearch/ipUpdate.h"
+
+1302960804 /media/B8DA-78AF/DNSFilter/packet/queueip.h
+	<stdio.h>
+	<errno.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/uio.h>
+	<asm/types.h>
+	<linux/netlink.h>
+	<linux/netfilter_ipv4/ip_queue.h>
+
+1318819204 /media/B8DA-78AF/DNSFilter/packet/packet_filter.h
+	<sys/types.h>
+	<netinet/ip.h>
+	<netinet/udp.h>
+	<net/ethernet.h>
+	<stdio.h>
+	"queueip.h"
+
+1318819798 source:/media/B8DA-78AF/DNSFilter/packet/packet_filter.c
+	<string.h>
+	<stdlib.h>
+	<time.h>
+	<sys/time.h>
+	"packet_filter.h"
+	<netinet/ip.h>
+	<netinet/udp.h>
+	"queueip.h"
+	"../domainsearch/dbDomain.h"
+	"../ipsearch/dbIP.h"
+	"../domainsearch/dbUtility.h"
+
+1302960788 source:/media/B8DA-78AF/DNSFilter/packet/queueip.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+	<sys/time.h>
+	<sys/types.h>
+	"queueip.h"
+
+1312282088 source:/home/love/DNSFilter/domainsearch/dbDomain.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<errno.h>
+	<pthread.h>
+	<unistd.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<sys/mman.h>
+	<time.h>
+	"dbDomain.h"
+
+1294722892 /home/love/DNSFilter/domainsearch/dbDomain.h
+	<sys/types.h>
+	"dbUtility.h"
+
+1302957592 /home/love/DNSFilter/domainsearch/dbUtility.h
+
+1301896792 source:/home/love/DNSFilter/domainsearch/domainUpdate.c
+	<sys/types.h>
+	<sys/stat.h>
+	<sys/ipc.h>
+	<sys/shm.h>
+	<sys/sem.h>
+	<time.h>
+	<sys/time.h>
+	<stdio.h>
+	<string.h>
+	<pthread.h>
+	<errno.h>
+	"domainUpdate.h"
+	"dbDomain.h"
+
+1294722990 /home/love/DNSFilter/domainsearch/domainUpdate.h
+	<pthread.h>
+	"dbUtility.h"
+
+1300168538 source:/home/love/DNSFilter/ipsearch/dbIP.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<sys/mman.h>
+	<arpa/inet.h>
+	"dbIP.h"
+
+1293098064 /home/love/DNSFilter/ipsearch/dbIP.h
+	"dbUtility.h"
+
+1314662628 /home/love/DNSFilter/ipsearch/dbUtility.h
+
+1301889160 source:/home/love/DNSFilter/ipsearch/ipUpdate.c
+	<sys/types.h>
+	<sys/stat.h>
+	<sys/ipc.h>
+	<sys/shm.h>
+	<sys/sem.h>
+	<time.h>
+	<sys/time.h>
+	<stdio.h>
+	<string.h>
+	<pthread.h>
+	<errno.h>
+	<signal.h>
+	"ipUpdate.h"
+	"dbIP.h"
+
+1299721958 /home/love/DNSFilter/ipsearch/ipUpdate.h
+	<pthread.h>
+	"dbUtility.h"
+
+1318819798 source:/home/love/DNSFilter/main.c
+	<stdio.h>
+	<stdlib.h>
+	<signal.h>
+	<pthread.h>
+	"packet/queueip.h"
+	"packet/packet_filter.h"
+	"domainsearch/dbDomain.h"
+	"domainsearch/domainUpdate.h"
+	"ipsearch/dbIP.h"
+	"ipsearch/ipUpdate.h"
+
+1302960804 /home/love/DNSFilter/packet/queueip.h
+	<stdio.h>
+	<errno.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/uio.h>
+	<asm/types.h>
+	<linux/netlink.h>
+	<linux/netfilter_ipv4/ip_queue.h>
+
+1318819204 /home/love/DNSFilter/packet/packet_filter.h
+	<sys/types.h>
+	<netinet/ip.h>
+	<netinet/udp.h>
+	<net/ethernet.h>
+	<stdio.h>
+	"queueip.h"
+
+1319115792 source:/home/love/DNSFilter/packet/packet_filter.c
+	<string.h>
+	<stdlib.h>
+	<time.h>
+	<sys/time.h>
+	"packet_filter.h"
+	<netinet/ip.h>
+	<netinet/udp.h>
+	"queueip.h"
+	"../domainsearch/dbDomain.h"
+	"../ipsearch/dbIP.h"
+	"../domainsearch/dbUtility.h"
+
+1302960788 source:/home/love/DNSFilter/packet/queueip.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+	<sys/time.h>
+	<sys/types.h>
+	"queueip.h"
+
+1312282088 source:/home/love/DNSFilter1/domainsearch/dbDomain.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<errno.h>
+	<pthread.h>
+	<unistd.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<sys/mman.h>
+	<time.h>
+	"dbDomain.h"
+
+1320327855 /home/love/DNSFilter1/domainsearch/dbDomain.h
+	<sys/types.h>
+	"dbUtility.h"
+
+1302957592 /home/love/DNSFilter1/domainsearch/dbUtility.h
+
+1301896792 source:/home/love/DNSFilter1/domainsearch/domainUpdate.c
+	<sys/types.h>
+	<sys/stat.h>
+	<sys/ipc.h>
+	<sys/shm.h>
+	<sys/sem.h>
+	<time.h>
+	<sys/time.h>
+	<stdio.h>
+	<string.h>
+	<pthread.h>
+	<errno.h>
+	"domainUpdate.h"
+	"dbDomain.h"
+
+1294722990 /home/love/DNSFilter1/domainsearch/domainUpdate.h
+	<pthread.h>
+	"dbUtility.h"
+
+1300168538 source:/home/love/DNSFilter1/ipsearch/dbIP.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<sys/mman.h>
+	<arpa/inet.h>
+	"dbIP.h"
+
+1293098064 /home/love/DNSFilter1/ipsearch/dbIP.h
+	"dbUtility.h"
+
+1314662628 /home/love/DNSFilter1/ipsearch/dbUtility.h
+
+1301889160 source:/home/love/DNSFilter1/ipsearch/ipUpdate.c
+	<sys/types.h>
+	<sys/stat.h>
+	<sys/ipc.h>
+	<sys/shm.h>
+	<sys/sem.h>
+	<time.h>
+	<sys/time.h>
+	<stdio.h>
+	<string.h>
+	<pthread.h>
+	<errno.h>
+	<signal.h>
+	"ipUpdate.h"
+	"dbIP.h"
+
+1299721958 /home/love/DNSFilter1/ipsearch/ipUpdate.h
+	<pthread.h>
+	"dbUtility.h"
+
+1322051042 source:/home/love/DNSFilter1/main.c
+	<stdio.h>
+	<stdlib.h>
+	<signal.h>
+	<pthread.h>
+	"packet/queueip.h"
+	"packet/packet_filter.h"
+	"domainsearch/dbDomain.h"
+	"domainsearch/domainUpdate.h"
+	"ipsearch/dbIP.h"
+	"ipsearch/ipUpdate.h"
+	<sys/timeb.h>
+	<sys/stat.h>
+	<unistd.h>
+
+1320373123 /home/love/DNSFilter1/packet/queueip.h
+	<stdio.h>
+	<errno.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/uio.h>
+	<asm/types.h>
+	<linux/netlink.h>
+	<linux/netfilter_ipv4/ip_queue.h>
+
+1320328641 /home/love/DNSFilter1/packet/packet_filter.h
+	<sys/types.h>
+	<netinet/ip.h>
+	<netinet/udp.h>
+	<net/ethernet.h>
+	<stdio.h>
+	"queueip.h"
+
+1322051064 source:/home/love/DNSFilter1/packet/packet_filter.c
+	<string.h>
+	<stdlib.h>
+	<time.h>
+	<sys/time.h>
+	"packet_filter.h"
+	<netinet/ip.h>
+	<netinet/udp.h>
+	"queueip.h"
+	"../domainsearch/dbDomain.h"
+	"../ipsearch/dbIP.h"
+	"../domainsearch/dbUtility.h"
+
+1320651048 source:/home/love/DNSFilter1/packet/queueip.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+	<sys/time.h>
+	<time.h>
+	<sys/types.h>
+	"queueip.h"
+
